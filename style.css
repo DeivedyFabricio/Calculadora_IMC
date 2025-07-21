@@ -1,0 +1,49 @@
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #4d614d;
+    text-align: center;
+    margin-top: 50px;
+}
+.calculadora {
+      background: white;
+      padding: 20px;
+      border-radius: 12px;
+      width: 300px;
+      margin: auto;
+      box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    }
+    input, select, button {
+      margin: 10px;
+      padding: 8px;
+      width: 80%;
+      font-size: 16px;
+    }
+
+.tabela {
+  padding: 10px;
+  margin: 5% auto;
+  width: 50%;
+}
+
+.tabela th, .tabela td {
+  background-color: rgb(244, 244, 244);
+  padding: 8px;
+  text-align: center;
+  border-radius: 5%;
+}
+
+.tabela1 {
+  background-color: rgb(64, 64, 64);
+  color: rgb(0, 0, 0);
+  padding: 10px;
+  margin: 5% auto;
+  width: 100%;
+  border-radius: 5%;
+}
+
+.informacao {
+  text-align: justify;
+  font-size: small;
+  color: rgb(0, 0, 0);
+}

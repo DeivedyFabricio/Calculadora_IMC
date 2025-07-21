@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Calculadora Básica</title>
+  <link rel="stylesheet" href="style.css" />
+  <script src="calcular.js"></script>
+</head>
+<body>
+  <div class="calculadora">
+    <h2>Calculadora IMC</h2>
+    <div>
+      <p class="informacao">O IMC (Índice de Massa Corporal) é uma medida usada para avaliar se uma pessoa está com o peso adequado em relação à sua altura. Ele é calculado dividindo o peso (em quilos) pela altura (em metros) ao quadrado. O resultado indica se a pessoa está abaixo do peso, com peso normal, sobrepeso ou obesidade. É uma ferramenta simples e rápida, muito usada por profissionais da saúde para orientar sobre o estado nutricional.</p>
+    </div>
+    <input type="number" id="altura1" placeholder="Digite sua altura (Ex:1.80)" min="0" step="0.01"/>
+
+    <input type="number" id="peso1" placeholder="Digite seu peso (Ex: 50)" min="0" step="2"/>
+
+    <button onclick="calcular()">Calcular IMC</button>
+    <p id="resultado"><strong>Seu IMC é:</strong> </p>
+      <div>
+    <p id="pesoStatus">...</p>
+    </div>
+  </div>
+
+  <div class="tabela">
+    <table class="tabela1">
+      <thead>
+      <tr>
+      <th>IMC</th>
+      <th>Descrição</th>
+      </tr>
+      <tr>
+        <td>Menor que 18,5</td>
+        <td>Abaixo do peso ideal</td>
+      </tr>
+            <tr>
+        <td>18,5 - 24,9</td>
+        <td>Peso ideal</td>
+      </tr>
+            <tr>
+        <td>25,0 - 29,9 </td>
+        <td>Sobrepeso</td>
+      </tr>
+            <tr>
+        <td>30,0 – 34,9</td>
+        <td>Obesidade grau I</td>
+      </tr>
+            <tr>
+        <td>35,0 – 39,9</td>
+        <td>Obesidade grau II</td>
+      </tr>
+      </thead>
+    </table>
+  </div>
+</body>
+</html>
