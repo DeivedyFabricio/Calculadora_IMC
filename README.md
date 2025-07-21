@@ -12,8 +12,8 @@ Neste post apresento uma calculadora básica de IMC, utilizando e praticando Jav
 
 - HTML
 - CSS
-- JS
+- JavaScript
 
 ## Como usar
 
-Você pode importar os arquivos do GitHub para ser computador, e executar diretamente em seu navegador.
+Você pode importar os arquivos do GitHub para seu computador e, executar diretamente em seu navegador.
